@@ -218,7 +218,10 @@ span{
 }
 
 .skills {
-	margin: 30px auto;
+	background: #415165;
+	color: #fff;
+	/* margin: 30px auto; */
+
 	font-family: 'Microsoft JhengHei';
 	font-style: normal;
 	font-weight: 400;
@@ -226,8 +229,26 @@ span{
 	line-height: 36px;
 }
 
+.skills h3{
+	margin: 0 auto;
+	padding: 32px 0 8px 0 ;
+	color: #fff;
+	border-bottom: 2px solid #fff;
+	width: 993px;
+	text-align: center;
+}
+
+.skills-p{
+	border-left: 2px solid #fff ;
+	margin-left: 484px;
+	padding: 24px 16px 22px 24px;
+	line-height: 36px;
+}
+
 .workex {
-	margin: 30px auto;
+	border-left: 2px solid #415165;
+	margin: 0 0 30px 21px;
+	padding-left: 24px;
 	font-family: 'Microsoft JhengHei';
 	font-style: normal;
 	font-weight: 400;
@@ -261,4 +282,8 @@ span{
 
 .sns{
 	width: 40px;
+}
+
+.footer>li{
+	font-size: 24px;
 }
